@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1018">
+  <meta name="description" content="Israa Ahmed Helmy — web developer and aspiring .NET developer. Explore my skills and projects.">
+  <title>Israa Ahmed Helmy — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Israa, home">israa<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="primary-navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+          <h1>Hi, I'm <span class="gradient-text" data-personal="name">Israa Ahmed Helmy</span>.<br>I build for the <span class="headline-accent">web.</span></h1>
+          <p class="hero-description" data-personal="bio">Aspiring .NET developer skilled in C# and databases, with a passion for building clear, responsive web experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-socials" data-social-links aria-label="Social links"></div>
+        </div>
+
+        <div class="hero-visual" aria-label="Profile picture placeholder">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-topline"><span>PROFILE / 01</span><span class="profile-cross" aria-hidden="true">✳</span></div>
+            <div class="avatar-placeholder" role="img" aria-label="Replace with your profile photo">
+              <span class="avatar-initials" data-initials>IA</span>
+              <span class="avatar-caption">YOUR PHOTO HERE</span>
+            </div>
+            <div class="profile-caption">
+              <div><strong data-personal="name">Israa Ahmed Helmy</strong><span data-personal="title">Web Developer</span></div>
+              <span class="arrow-badge" aria-hidden="true">↗</span>
+            </div>
+          </div>
+          <div class="floating-chip chip-code"><span aria-hidden="true">&lt;/&gt;</span> always learning</div>
+          <div class="floating-chip chip-location"><span class="status-dot"></span> building what's next</div>
+          <div class="visual-glow"></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="container about-layout">
+        <div class="section-label"><span>01</span><span class="label-line"></span> A LITTLE ABOUT ME</div>
+        <div class="about-content">
+          <h2>Curious by nature.<br><span class="muted-heading">Developer by choice.</span></h2>
+          <p class="about-lead" data-personal="about">I'm Israa, an aspiring .NET developer who enjoys turning ideas into useful, thoughtful digital experiences.</p>
+          <p class="about-detail">I work across front-end fundamentals and keep growing my skills in C#, .NET, and databases. I value clean interfaces, thoughtful details, and learning something new with every project.</p>
+          <a class="inline-link" href="#contact">A project in mind? Let's connect <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="container stats-row">
+        <div class="stat"><span class="stat-number">01</span><span class="stat-caption">featured project</span></div>
+        <div class="stat"><span class="stat-number">06<span class="stat-plus">+</span></span><span class="stat-caption">tools in my toolkit</span></div>
+        <div class="stat"><span class="stat-number">∞</span><span class="stat-caption">things left to learn</span></div>
+      </div>
+    </section>
+
+    <section class="skills section-wrap" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-label"><span>02</span><span class="label-line"></span> MY TOOLKIT</div>
+          <h2>Skills I bring<br><span class="muted-heading">to the table.</span></h2>
+          <p>A growing toolkit for building, styling, and shipping thoughtful digital experiences.</p>
+        </div>
+        <div class="skills-grid" id="skills-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div>
+            <div class="section-label"><span>03</span><span class="label-line"></span> SELECTED WORK</div>
+            <h2>Things I've<br><span class="muted-heading">been building.</span></h2>
+          </div>
+          <p>A few small steps that turn ideas into something you can explore.</p>
+        </div>
+        <div class="projects-grid" id="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <div class="section-label"><span>04</span><span class="label-line"></span> SAY HELLO</div>
+          <h2>Let's make<br>something <span class="gradient-text">meaningful.</span></h2>
+          <p>Have an opportunity, a question, or an idea you'd like to talk through? My inbox is open.</p>
+          <a class="email-link" data-email-link href="mailto:israahelmy1@gmail.com"><span data-personal="email">israahelmy1@gmail.com</span><span aria-hidden="true">↗</span></a>
+          <div class="contact-socials" data-social-links aria-label="Social links"></div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-heading"><span>01 / SEND A MESSAGE</span><span aria-hidden="true">✳</span></div>
+          <label for="contact-name">Your name</label>
+          <input id="contact-name" name="name" type="text" placeholder="Jane Smith" autocomplete="name" required>
+          <label for="contact-email">Email address</label>
+          <input id="contact-email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required>
+          <label for="contact-message">Your message</label>
+          <textarea id="contact-message" name="message" rows="4" placeholder="Tell me a little about what you have in mind..." required></textarea>
+          <p class="form-error" id="form-error" aria-live="polite"></p>
+          <button class="button button-primary submit-button" type="submit">Send message <span aria-hidden="true">↗</span></button>
+          <p class="form-note">This demo form validates your message but doesn't send or store it.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="wordmark" href="#home" aria-label="Back to top">israa<span>.</span></a>
+      <p>Designed &amp; built with care.</p>
+      <div class="footer-right">
+        <div class="footer-socials" data-social-links aria-label="Social links"></div>
+        <span>© <span id="current-year"></span> <span data-personal="name">Israa Ahmed Helmy</span></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

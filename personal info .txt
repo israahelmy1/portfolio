@@ -1,0 +1,17 @@
+=== PERSONAL INFO ===
+Name: Israa Ahmed Helmy
+Title: web developer
+Bio: Aspiring .NET developer skilled in C#, database
+
+=== SKILLS ===
+HTML, CSS, JavaScript, Git & GitHub
+
+=== PROJECTS ===
+1.  Landing Page: Modern responsive landing page for a restaurant.
+2. 
+3. 
+
+=== CONTACT ===
+Email: israahelmy1@gmail.com
+LinkedIn: linkedin.com/in/israahelmy
+GitHub: https://github.com/israahelmy1
